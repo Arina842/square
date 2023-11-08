@@ -11,3 +11,8 @@ print(arr_x)
 
 b = [x**2 for x in x_list]
 print(b)
+
+def square(number):
+    return number ** 2
+squared = map(square, x_list)
+print(list(squared))
